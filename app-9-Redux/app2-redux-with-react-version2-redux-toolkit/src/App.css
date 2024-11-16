@@ -1,0 +1,17 @@
+.content{
+    /* margin-top:25%; */
+}
+
+.w-content{
+    max-width: 410px;
+    text-align: center;
+    align-items: center;
+}
+
+.content-assemble{
+    margin-top: 25px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

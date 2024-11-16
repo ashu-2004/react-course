@@ -1,0 +1,25 @@
+h1{
+    /* font-weight: 1000; */
+    /* font-size: 40px; */
+    /* margin: 25px; */
+    /* margin-bottom: 25px; */
+    font-family:'Times New Roman';
+    padding: 25px;
+}
+
+.TodoList{
+    height: 200px;
+    width:500px;
+}
+
+.items{
+    text-align: left;
+}
+
+input{
+    width:100%;
+}
+
+.row1{
+    margin:10px 5px;
+}

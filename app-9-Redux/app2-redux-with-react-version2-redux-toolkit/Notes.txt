@@ -1,0 +1,22 @@
+steps to use redux in our react project.
+1) npm install @reduxjs/toolkit
+2) Remove redux from package.json
+   npm uninstall redux
+3) import {createSlice} from "@reduxjs.toolkit"
+4) Slices of the store can be created using the following syntax:
+   const slice = createSllice({
+    name:'',
+    initialState:{},
+    reducers:{
+        smallReducerMethods:(state,action)=>{
+        }, 
+      }
+   })
+5) ConfigureStore combines multiple reducers and can be used as:
+   configureStore({
+    reducer:{
+        name:slice.reducer
+      }
+   })
+6) Export actions=slice.actions;
+7) Actions can be dispatched like: actions.reducerMethod(payload);

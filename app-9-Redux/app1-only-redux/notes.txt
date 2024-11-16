@@ -1,0 +1,13 @@
+Basic Creation of Redux Steps and Notes
+
+1) npm init -y : it is used to create node project
+2) npm install redux : it is used to install the redux
+
+3) import in node const redux = require('redux');
+4) We need to setup all 4 basic things.
+  1. Reducer
+  2. Store
+  3. Subscriber //Subscriber is UI component ,We know that redux does not depends on react it just works with react
+   //It means it is not mandatory that Subscriber must be an React Component it can be a simple function.
+  4. Actions
+5) Node redux-demo.js command to run node server

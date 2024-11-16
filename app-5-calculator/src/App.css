@@ -1,0 +1,54 @@
+.App-Name{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  font-weight: 700;
+  margin: 15px;
+}
+
+.btns{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.buttons{
+  height:95px;
+  width:95px;
+}
+
+.calculator{
+  display:flex;
+  flex-direction: column;
+  width:450px;
+  box-shadow:0 0 10px rgba(0, 0, 0, 0.3);
+  align-items: center;
+  height:670px;margin-top: 15px;
+  background-color:aliceblue;
+}
+
+.game{
+  height:350px;
+  width:300px;
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* border-radius: 25px; */
+  align-items: center;
+  justify-content: space-between;
+  margin-top:15px;
+}
+
+.btns{
+  height:80px;
+  width:80px;
+  /* border-radius: 25px; */
+  background-color: rgb(226, 225, 225);
+  font-size: 40px;
+  flex-shrink: 4;
+  font-family:'Times New Roman', Times, serif;
+  text-align: center;
+  margin:3px;
+}
+
+.container{
+  background-color: black;
+}
