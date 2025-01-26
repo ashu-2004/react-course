@@ -18,6 +18,7 @@ const FetchItems = () => {
     fetch("http://localhost:8080/items", { signal })
       .then((res) => res.json())
       .then(({ items }) => {
+        console.log(items)
         dispatch(fetchStatusActions.markFetchDone());
         dispatch(fetchStatusActions.markFetchFinished());
         dispatch(itemActions.addInitialItem(items));

@@ -25,7 +25,7 @@ const slice = createSlice({
 const configStore = configureStore({
   //config store is used to config all the reducers in it as like createStore
   // but it only differ in case that in createStore it contains a reducer with all the definitions.
-  // which becomes very vast(). for that purpose configureStore() is used to store slices.
+  // which becomes very warst(). for that purpose configureStore() is used to store slices.
   reducer: {
     counter: slice.reducer,
   },
